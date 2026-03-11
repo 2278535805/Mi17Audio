@@ -1288,7 +1288,7 @@
         <band_optimizer frequency="3750" gain_left="35" gain_right="35"/>
         <band_optimizer frequency="4688" gain_left="25" gain_right="25"/>
         <band_optimizer frequency="5813" gain_left="-50" gain_right="-50"/>
-        <band_optimizer frequency="7125" gain_left="-20" gain_right="-20"/>
+        <band_optimizer frequency="7125" gain_left="-10" gain_right="-10"/>
         <band_optimizer frequency="9000" gain_left="20" gain_right="20"/>
         <band_optimizer frequency="11250" gain_left="-20" gain_right="-20"/>
         <band_optimizer frequency="13875" gain_left="0" gain_right="0"/>
