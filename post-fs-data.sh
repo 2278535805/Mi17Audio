@@ -31,7 +31,7 @@ overlay_mount(){
 # 需要手动挂载的目录
 mount_folders='odm'
 if [[ "$KSU" == "true" ]] || [[ $(which ksud) != "" ]] || [[ $(which apd) != "" ]]; then
-  mount_folders='my_product my_heytap my_stock'
+  mount_folders='odm'
 fi
 
 for parent in $mount_folders; do
