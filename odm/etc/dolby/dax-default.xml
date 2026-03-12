@@ -1273,11 +1273,11 @@
     <device_id id="speaker_landscape" endpoint_port="internal_speaker"/>
     <data>
       <audio-optimizer-bands>
-        <band_optimizer frequency="47" gain_left="0" gain_right="0"/>
-        <band_optimizer frequency="141" gain_left="0" gain_right="0"/>
-        <band_optimizer frequency="234" gain_left="0" gain_right="0"/>
-        <band_optimizer frequency="328" gain_left="0" gain_right="0"/>
-        <band_optimizer frequency="469" gain_left="0" gain_right="0"/>
+        <band_optimizer frequency="47" gain_left="120" gain_right="120"/>
+        <band_optimizer frequency="141" gain_left="120" gain_right="120"/>
+        <band_optimizer frequency="234" gain_left="120" gain_right="120"/>
+        <band_optimizer frequency="328" gain_left="80" gain_right="80"/>
+        <band_optimizer frequency="469" gain_left="50" gain_right="50"/>
         <band_optimizer frequency="656" gain_left="0" gain_right="0"/>
         <band_optimizer frequency="844" gain_left="-70" gain_right="-70"/>
         <band_optimizer frequency="1031" gain_left="-50" gain_right="-50"/>
@@ -1379,10 +1379,10 @@
     <device_id id="medium_mode_speaker" endpoint_port="internal_speaker"/>
     <data>
       <audio-optimizer-bands>
-        <band_optimizer frequency="47" gain_left="120" gain_right="120"/>
-        <band_optimizer frequency="141" gain_left="120" gain_right="120"/>
-        <band_optimizer frequency="234" gain_left="120" gain_right="120"/>
-        <band_optimizer frequency="328" gain_left="80" gain_right="80"/>
+        <band_optimizer frequency="47" gain_left="0" gain_right="0"/>
+        <band_optimizer frequency="141" gain_left="0" gain_right="0"/>
+        <band_optimizer frequency="234" gain_left="0" gain_right="0"/>
+        <band_optimizer frequency="328" gain_left="0" gain_right="0"/>
         <band_optimizer frequency="469" gain_left="0" gain_right="0"/>
         <band_optimizer frequency="656" gain_left="0" gain_right="0"/>
         <band_optimizer frequency="844" gain_left="0" gain_right="0"/>
@@ -1485,10 +1485,10 @@
     <device_id id="small_mode_speaker" endpoint_port="internal_speaker"/>
     <data>
       <audio-optimizer-bands>
-        <band_optimizer frequency="47" gain_left="150" gain_right="150"/>
-        <band_optimizer frequency="141" gain_left="150" gain_right="150"/>
-        <band_optimizer frequency="234" gain_left="130" gain_right="130"/>
-        <band_optimizer frequency="328" gain_left="80" gain_right="80"/>
+        <band_optimizer frequency="47" gain_left="30" gain_right="30"/>
+        <band_optimizer frequency="141" gain_left="30" gain_right="30"/>
+        <band_optimizer frequency="234" gain_left="10" gain_right="10"/>
+        <band_optimizer frequency="328" gain_left="0" gain_right="0"/>
         <band_optimizer frequency="469" gain_left="0" gain_right="0"/>
         <band_optimizer frequency="656" gain_left="0" gain_right="0"/>
         <band_optimizer frequency="844" gain_left="0" gain_right="0"/>
@@ -1591,10 +1591,10 @@
     <device_id id="large_mode_speaker" endpoint_port="internal_speaker"/>
     <data>
       <audio-optimizer-bands>
-        <band_optimizer frequency="47" gain_left="0" gain_right="0"/>
-        <band_optimizer frequency="141" gain_left="0" gain_right="0"/>
-        <band_optimizer frequency="234" gain_left="0" gain_right="0"/>
-        <band_optimizer frequency="328" gain_left="0" gain_right="0"/>
+        <band_optimizer frequency="47" gain_left="-120" gain_right="-120"/>
+        <band_optimizer frequency="141" gain_left="-120" gain_right="-120"/>
+        <band_optimizer frequency="234" gain_left="-120" gain_right="-120"/>
+        <band_optimizer frequency="328" gain_left="-80" gain_right="-80"/>
         <band_optimizer frequency="469" gain_left="0" gain_right="0"/>
         <band_optimizer frequency="656" gain_left="0" gain_right="0"/>
         <band_optimizer frequency="844" gain_left="0" gain_right="0"/>
