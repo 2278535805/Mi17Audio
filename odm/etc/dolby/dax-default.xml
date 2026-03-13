@@ -72,9 +72,9 @@
         <hearing-protection-attenuation-attack-time value="900"/>
         <hearing-protection-attenuation-release-time value="1600"/>
         <volume-leveler-enable value="true"/>
-        <volume-leveler-amount value="5"/>
+        <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
-        <volume-leveler-out-target value="-128"/>
+        <volume-leveler-out-target value="-256"/>
         <graphic-equalizer-enable value="true"/>
         <virtualizer-enable value="false"/>
         <virtualizer-start-band value="13"/>
