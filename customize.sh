@@ -6,6 +6,11 @@ print_modname() {
 	ui_print "*********************************"
 }
 
+copy_dax_files() {
+	mkdir -p $MODPATH/system/vendor/etc/dolby/
+	cp -rf $MODPATH/odm/etc/dolby/* $MODPATH/system/vendor/etc/dolby/
+}
+
 set_permissions() {
 	set_perm_recursive $MODPATH 0 0 0755 0644
 	set_perm_recursive $MODPATH/system/system_ext/etc 0 0 0755 0644
@@ -13,4 +18,5 @@ set_permissions() {
 }
 
 print_modname
+copy_dax_files
 set_permissions
