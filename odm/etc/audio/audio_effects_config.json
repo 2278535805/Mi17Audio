@@ -1,0 +1,25 @@
+{
+    "scenario_volume_flag": {
+        "dolby_multilevel_volume": true,
+        "mi_multilevel_volume": false,
+        "dolby_multiscenario": false,
+        "mi_multiscenario": false
+    },
+    "volume_levels": [
+        { "range": [0, 10], "device_id": "speaker_1" },
+        { "range": [11, 20], "device_id": "speaker_2" },
+        { "range": [21, 30], "device_id": "speaker_3" },
+        { "range": [31, 40], "device_id": "speaker_4" },
+        { "range": [41, 50], "device_id": "speaker_5" },
+        { "range": [51, 60], "device_id": "speaker_6" },
+        { "range": [61, 70], "device_id": "speaker_7" },
+        { "range": [71, 80], "device_id": "speaker_8" },
+        { "range": [81, 90], "device_id": "speaker_9" },
+        { "range": [91, 100], "device_id": "speaker_10" },
+        { "range": [101, 110], "device_id": "speaker_11" },
+        { "range": [111, 120], "device_id": "speaker_12" },
+        { "range": [121, 130], "device_id": "speaker_13" },
+        { "range": [131, 140], "device_id": "speaker_14" },
+        { "range": [141, 150], "device_id": "speaker_15" }
+    ]
+}
