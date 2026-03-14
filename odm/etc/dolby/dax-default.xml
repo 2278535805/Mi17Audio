@@ -187,10 +187,10 @@
       <virtual-bass-overall-gain value="0"/>
       <virtual-bass-slope-gain value="0"/>
       <virtual-bass-mix-freqs frequency_low="94" frequency_high="469"/>
-      <virtual-bass-src-freqs frequency_low="35" frequency_high="160"/>
+      <virtual-bass-src-freqs frequency_low="35" frequency_high="94"/>
       <virtual-bass-subgains harmonic_2="-32" harmonic_3="-144" harmonic_4="-192"/>
-      <virtual-bass-harmgains value="96,64,80,64,0,0,0,0,0"/>
-      <virtual-bass-hybgains value="80,32,0,0,0,0"/>
+      <virtual-bass-harmgains value="32,96,64,32,0,0,0,0,0"/>
+      <virtual-bass-hybgains value="80,48,16,0,0,0"/>
       <virtual-bass-rolloff-gain value="-8"/>
       <virtual-bass-blend-linear-gain value="16"/>
       <virtual-bass-blend-linear-gain-separated value="10,10"/>
@@ -293,10 +293,10 @@
       <virtual-bass-overall-gain value="0"/>
       <virtual-bass-slope-gain value="0"/>
       <virtual-bass-mix-freqs frequency_low="94" frequency_high="469"/>
-      <virtual-bass-src-freqs frequency_low="35" frequency_high="160"/>
+      <virtual-bass-src-freqs frequency_low="35" frequency_high="94"/>
       <virtual-bass-subgains harmonic_2="-32" harmonic_3="-144" harmonic_4="-192"/>
-      <virtual-bass-harmgains value="96,64,80,64,0,0,0,0,0"/>
-      <virtual-bass-hybgains value="80,32,0,0,0,0"/>
+      <virtual-bass-harmgains value="0,96,64,32,0,0,0,0,0"/>
+      <virtual-bass-hybgains value="80,48,16,0,0,0"/>
       <virtual-bass-rolloff-gain value="-8"/>
       <virtual-bass-blend-linear-gain value="16"/>
       <virtual-bass-blend-linear-gain-separated value="10,10"/>
@@ -399,10 +399,10 @@
       <virtual-bass-overall-gain value="0"/>
       <virtual-bass-slope-gain value="0"/>
       <virtual-bass-mix-freqs frequency_low="94" frequency_high="469"/>
-      <virtual-bass-src-freqs frequency_low="35" frequency_high="160"/>
+      <virtual-bass-src-freqs frequency_low="35" frequency_high="94"/>
       <virtual-bass-subgains harmonic_2="-32" harmonic_3="-144" harmonic_4="-192"/>
-      <virtual-bass-harmgains value="96,64,80,64,0,0,0,0,0"/>
-      <virtual-bass-hybgains value="80,32,0,0,0,0"/>
+      <virtual-bass-harmgains value="0,96,64,32,0,0,0,0,0"/>
+      <virtual-bass-hybgains value="80,48,16,0,0,0"/>
       <virtual-bass-rolloff-gain value="-8"/>
       <virtual-bass-blend-linear-gain value="16"/>
       <virtual-bass-blend-linear-gain-separated value="10,10"/>
@@ -500,10 +500,10 @@
       <virtual-bass-overall-gain value="0"/>
       <virtual-bass-slope-gain value="0"/>
       <virtual-bass-mix-freqs frequency_low="94" frequency_high="469"/>
-      <virtual-bass-src-freqs frequency_low="35" frequency_high="160"/>
+      <virtual-bass-src-freqs frequency_low="35" frequency_high="94"/>
       <virtual-bass-subgains harmonic_2="-32" harmonic_3="-144" harmonic_4="-192"/>
-      <virtual-bass-harmgains value="96,64,80,64,0,0,0,0,0"/>
-      <virtual-bass-hybgains value="80,32,0,0,0,0"/>
+      <virtual-bass-harmgains value="0,96,64,32,0,0,0,0,0"/>
+      <virtual-bass-hybgains value="80,48,16,0,0,0"/>
       <virtual-bass-rolloff-gain value="-8"/>
       <virtual-bass-blend-linear-gain value="16"/>
       <virtual-bass-blend-linear-gain-separated value="10,10"/>
@@ -601,10 +601,10 @@
       <virtual-bass-overall-gain value="0"/>
       <virtual-bass-slope-gain value="0"/>
       <virtual-bass-mix-freqs frequency_low="94" frequency_high="469"/>
-      <virtual-bass-src-freqs frequency_low="35" frequency_high="160"/>
+      <virtual-bass-src-freqs frequency_low="35" frequency_high="94"/>
       <virtual-bass-subgains harmonic_2="-32" harmonic_3="-144" harmonic_4="-192"/>
-      <virtual-bass-harmgains value="96,64,80,64,0,0,0,0,0"/>
-      <virtual-bass-hybgains value="80,32,0,0,0,0"/>
+      <virtual-bass-harmgains value="0,96,64,32,0,0,0,0,0"/>
+      <virtual-bass-hybgains value="80,48,16,0,0,0"/>
       <virtual-bass-rolloff-gain value="-8"/>
       <virtual-bass-blend-linear-gain value="16"/>
       <virtual-bass-blend-linear-gain-separated value="10,10"/>
@@ -702,10 +702,10 @@
       <virtual-bass-overall-gain value="0"/>
       <virtual-bass-slope-gain value="0"/>
       <virtual-bass-mix-freqs frequency_low="94" frequency_high="469"/>
-      <virtual-bass-src-freqs frequency_low="35" frequency_high="160"/>
+      <virtual-bass-src-freqs frequency_low="35" frequency_high="94"/>
       <virtual-bass-subgains harmonic_2="-32" harmonic_3="-144" harmonic_4="-192"/>
-      <virtual-bass-harmgains value="96,64,80,64,0,0,0,0,0"/>
-      <virtual-bass-hybgains value="80,32,0,0,0,0"/>
+      <virtual-bass-harmgains value="6,96,64,32,0,0,0,0,0"/>
+      <virtual-bass-hybgains value="80,48,16,0,0,0"/>
       <virtual-bass-rolloff-gain value="-8"/>
       <virtual-bass-blend-linear-gain value="16"/>
       <virtual-bass-blend-linear-gain-separated value="10,10"/>
@@ -803,10 +803,10 @@
       <virtual-bass-overall-gain value="0"/>
       <virtual-bass-slope-gain value="0"/>
       <virtual-bass-mix-freqs frequency_low="94" frequency_high="469"/>
-      <virtual-bass-src-freqs frequency_low="35" frequency_high="160"/>
+      <virtual-bass-src-freqs frequency_low="35" frequency_high="94"/>
       <virtual-bass-subgains harmonic_2="-32" harmonic_3="-144" harmonic_4="-192"/>
-      <virtual-bass-harmgains value="96,64,80,64,0,0,0,0,0"/>
-      <virtual-bass-hybgains value="80,32,0,0,0,0"/>
+      <virtual-bass-harmgains value="12,96,64,32,0,0,0,0,0"/>
+      <virtual-bass-hybgains value="80,48,16,0,0,0"/>
       <virtual-bass-rolloff-gain value="-8"/>
       <virtual-bass-blend-linear-gain value="16"/>
       <virtual-bass-blend-linear-gain-separated value="10,10"/>
@@ -904,10 +904,10 @@
       <virtual-bass-overall-gain value="0"/>
       <virtual-bass-slope-gain value="0"/>
       <virtual-bass-mix-freqs frequency_low="94" frequency_high="469"/>
-      <virtual-bass-src-freqs frequency_low="35" frequency_high="160"/>
+      <virtual-bass-src-freqs frequency_low="35" frequency_high="94"/>
       <virtual-bass-subgains harmonic_2="-32" harmonic_3="-144" harmonic_4="-192"/>
-      <virtual-bass-harmgains value="96,64,80,64,0,0,0,0,0"/>
-      <virtual-bass-hybgains value="80,32,0,0,0,0"/>
+      <virtual-bass-harmgains value="18,96,64,32,0,0,0,0,0"/>
+      <virtual-bass-hybgains value="80,48,16,0,0,0"/>
       <virtual-bass-rolloff-gain value="-8"/>
       <virtual-bass-blend-linear-gain value="16"/>
       <virtual-bass-blend-linear-gain-separated value="10,10"/>
@@ -1005,10 +1005,10 @@
       <virtual-bass-overall-gain value="0"/>
       <virtual-bass-slope-gain value="0"/>
       <virtual-bass-mix-freqs frequency_low="94" frequency_high="469"/>
-      <virtual-bass-src-freqs frequency_low="35" frequency_high="160"/>
+      <virtual-bass-src-freqs frequency_low="35" frequency_high="94"/>
       <virtual-bass-subgains harmonic_2="-32" harmonic_3="-144" harmonic_4="-192"/>
-      <virtual-bass-harmgains value="96,64,80,64,0,0,0,0,0"/>
-      <virtual-bass-hybgains value="80,32,0,0,0,0"/>
+      <virtual-bass-harmgains value="24,96,64,32,0,0,0,0,0"/>
+      <virtual-bass-hybgains value="80,48,16,0,0,0"/>
       <virtual-bass-rolloff-gain value="-8"/>
       <virtual-bass-blend-linear-gain value="16"/>
       <virtual-bass-blend-linear-gain-separated value="10,10"/>
@@ -1106,10 +1106,10 @@
       <virtual-bass-overall-gain value="0"/>
       <virtual-bass-slope-gain value="0"/>
       <virtual-bass-mix-freqs frequency_low="94" frequency_high="469"/>
-      <virtual-bass-src-freqs frequency_low="35" frequency_high="160"/>
+      <virtual-bass-src-freqs frequency_low="35" frequency_high="94"/>
       <virtual-bass-subgains harmonic_2="-32" harmonic_3="-144" harmonic_4="-192"/>
-      <virtual-bass-harmgains value="96,64,80,64,0,0,0,0,0"/>
-      <virtual-bass-hybgains value="80,32,0,0,0,0"/>
+      <virtual-bass-harmgains value="30,96,64,32,0,0,0,0,0"/>
+      <virtual-bass-hybgains value="80,48,16,0,0,0"/>
       <virtual-bass-rolloff-gain value="-8"/>
       <virtual-bass-blend-linear-gain value="16"/>
       <virtual-bass-blend-linear-gain-separated value="10,10"/>
@@ -1207,10 +1207,10 @@
       <virtual-bass-overall-gain value="5"/>
       <virtual-bass-slope-gain value="0"/>
       <virtual-bass-mix-freqs frequency_low="94" frequency_high="469"/>
-      <virtual-bass-src-freqs frequency_low="35" frequency_high="160"/>
+      <virtual-bass-src-freqs frequency_low="35" frequency_high="94"/>
       <virtual-bass-subgains harmonic_2="-32" harmonic_3="-144" harmonic_4="-192"/>
-      <virtual-bass-harmgains value="96,64,80,64,0,0,0,0,0"/>
-      <virtual-bass-hybgains value="80,32,0,0,0,0"/>
+      <virtual-bass-harmgains value="36,96,64,32,0,0,0,0,0"/>
+      <virtual-bass-hybgains value="80,48,16,0,0,0"/>
       <virtual-bass-rolloff-gain value="-8"/>
       <virtual-bass-blend-linear-gain value="16"/>
       <virtual-bass-blend-linear-gain-separated value="10,10"/>
@@ -1308,10 +1308,10 @@
       <virtual-bass-overall-gain value="0"/>
       <virtual-bass-slope-gain value="0"/>
       <virtual-bass-mix-freqs frequency_low="94" frequency_high="469"/>
-      <virtual-bass-src-freqs frequency_low="35" frequency_high="160"/>
+      <virtual-bass-src-freqs frequency_low="35" frequency_high="94"/>
       <virtual-bass-subgains harmonic_2="-32" harmonic_3="-144" harmonic_4="-192"/>
-      <virtual-bass-harmgains value="96,64,80,64,0,0,0,0,0"/>
-      <virtual-bass-hybgains value="80,32,0,0,0,0"/>
+      <virtual-bass-harmgains value="42,96,64,32,0,0,0,0,0"/>
+      <virtual-bass-hybgains value="80,48,16,0,0,0"/>
       <virtual-bass-rolloff-gain value="-8"/>
       <virtual-bass-blend-linear-gain value="16"/>
       <virtual-bass-blend-linear-gain-separated value="10,10"/>
@@ -1414,10 +1414,10 @@
       <virtual-bass-overall-gain value="0"/>
       <virtual-bass-slope-gain value="0"/>
       <virtual-bass-mix-freqs frequency_low="94" frequency_high="469"/>
-      <virtual-bass-src-freqs frequency_low="35" frequency_high="160"/>
+      <virtual-bass-src-freqs frequency_low="35" frequency_high="94"/>
       <virtual-bass-subgains harmonic_2="-32" harmonic_3="-144" harmonic_4="-192"/>
-      <virtual-bass-harmgains value="96,64,80,64,0,0,0,0,0"/>
-      <virtual-bass-hybgains value="80,32,0,0,0,0"/>
+      <virtual-bass-harmgains value="48,96,64,32,0,0,0,0,0"/>
+      <virtual-bass-hybgains value="80,48,16,0,0,0"/>
       <virtual-bass-rolloff-gain value="-8"/>
       <virtual-bass-blend-linear-gain value="16"/>
       <virtual-bass-blend-linear-gain-separated value="10,10"/>
@@ -1520,10 +1520,10 @@
       <virtual-bass-overall-gain value="10"/>
       <virtual-bass-slope-gain value="10"/>
       <virtual-bass-mix-freqs frequency_low="94" frequency_high="469"/>
-      <virtual-bass-src-freqs frequency_low="35" frequency_high="160"/>
+      <virtual-bass-src-freqs frequency_low="35" frequency_high="94"/>
       <virtual-bass-subgains harmonic_2="-32" harmonic_3="-144" harmonic_4="-192"/>
-      <virtual-bass-harmgains value="96,64,80,64,0,0,0,0,0"/>
-      <virtual-bass-hybgains value="80,32,0,0,0,0"/>
+      <virtual-bass-harmgains value="54,96,64,32,0,0,0,0,0"/>
+      <virtual-bass-hybgains value="80,48,16,0,0,0"/>
       <virtual-bass-rolloff-gain value="-8"/>
       <virtual-bass-blend-linear-gain value="16"/>
       <virtual-bass-blend-linear-gain-separated value="10,10"/>
@@ -1626,10 +1626,10 @@
       <virtual-bass-overall-gain value="20"/>
       <virtual-bass-slope-gain value="20"/>
       <virtual-bass-mix-freqs frequency_low="94" frequency_high="469"/>
-      <virtual-bass-src-freqs frequency_low="35" frequency_high="160"/>
+      <virtual-bass-src-freqs frequency_low="35" frequency_high="94"/>
       <virtual-bass-subgains harmonic_2="-32" harmonic_3="-144" harmonic_4="-192"/>
-      <virtual-bass-harmgains value="96,64,80,64,0,0,0,0,0"/>
-      <virtual-bass-hybgains value="80,32,0,0,0,0"/>
+      <virtual-bass-harmgains value="62,96,64,32,0,0,0,0,0"/>
+      <virtual-bass-hybgains value="80,48,16,0,0,0"/>
       <virtual-bass-rolloff-gain value="-8"/>
       <virtual-bass-blend-linear-gain value="16"/>
       <virtual-bass-blend-linear-gain-separated value="10,10"/>
@@ -1661,10 +1661,10 @@
     <device_id id="speaker_1" endpoint_port="internal_speaker"/>
     <data>
       <audio-optimizer-bands>
-        <band_optimizer frequency="47" gain_left="100" gain_right="100"/>
-        <band_optimizer frequency="141" gain_left="100" gain_right="100"/>
-        <band_optimizer frequency="234" gain_left="100" gain_right="100"/>
-        <band_optimizer frequency="328" gain_left="80" gain_right="60"/>
+        <band_optimizer frequency="47" gain_left="140" gain_right="140"/>
+        <band_optimizer frequency="141" gain_left="140" gain_right="140"/>
+        <band_optimizer frequency="234" gain_left="140" gain_right="140"/>
+        <band_optimizer frequency="328" gain_left="100" gain_right="80"/>
         <band_optimizer frequency="469" gain_left="40" gain_right="0"/>
         <band_optimizer frequency="656" gain_left="0" gain_right="0"/>
         <band_optimizer frequency="844" gain_left="-70" gain_right="-90"/>
@@ -1732,10 +1732,10 @@
       <virtual-bass-overall-gain value="30"/>
       <virtual-bass-slope-gain value="30"/>
       <virtual-bass-mix-freqs frequency_low="94" frequency_high="469"/>
-      <virtual-bass-src-freqs frequency_low="35" frequency_high="160"/>
+      <virtual-bass-src-freqs frequency_low="35" frequency_high="94"/>
       <virtual-bass-subgains harmonic_2="-32" harmonic_3="-144" harmonic_4="-192"/>
-      <virtual-bass-harmgains value="96,64,80,64,0,0,0,0,0"/>
-      <virtual-bass-hybgains value="80,32,0,0,0,0"/>
+      <virtual-bass-harmgains value="70,96,64,32,0,0,0,0,0"/>
+      <virtual-bass-hybgains value="80,48,16,0,0,0"/>
       <virtual-bass-rolloff-gain value="-8"/>
       <virtual-bass-blend-linear-gain value="16"/>
       <virtual-bass-blend-linear-gain-separated value="10,10"/>
