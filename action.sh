@@ -11,10 +11,11 @@ key_click() {
 }
 
 DLBSERV=$(find /*/bin/hw -type f -name "*vendor.dolby*dms*service")
-DAX_FILE="/vendor/etc/dolby/dax-default.xml"
+DAX_FILE="/odm/etc/dolby/dax-default.xml"
 LAST_MOD_TIME=$(stat -c %Y "$DAX_FILE")
 
-echo "start listen"
+echo "start listen $DAX_FILE"
+echo "the changes will be applied automatically"
 while true; do
     sleep 1
     CURRENT_MOD_TIME=$(stat -c %Y "$DAX_FILE")
