@@ -5,7 +5,8 @@ aaudio.mmap_policy=2
 aaudio.mmap_exclusive_policy=3
 aaudio.hw_burst_min_usec=2000
 vendor.audio_hal.period_multiplier=2
-vendor.audio.adm.buffering.ms=3 # HLMC: 1 会爆音; Ray: 3 音质最好
+# HLMC: 1 会爆音; Ray: 3 音质最好
+vendor.audio.adm.buffering.ms=3
 vendor.audio.ull_record_period_multiplier=2
 af.fast_track_multiplier=1
 ro.audio.usb.period_us=0
