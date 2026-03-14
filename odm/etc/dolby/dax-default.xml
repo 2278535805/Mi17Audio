@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
+<!--refactor by HLMC-->
 <device_data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <format_version major="3" minor="9" maintenance="1"/>
   <tool_version major="3" minor="18" maintenance="0"/>
@@ -2046,7 +2047,7 @@
       <virtual-bass-mix-freqs frequency_low="94" frequency_high="469"/>
       <virtual-bass-src-freqs frequency_low="35" frequency_high="160"/>
       <virtual-bass-subgains harmonic_2="-32" harmonic_3="-144" harmonic_4="-192"/>
-      <virtual-bass-harmgains value="-2080,48,48,48,-1120,-2080,-2080,-2080,-2080"/>
+      <virtual-bass-harmgains value="-2278,48,48,48,-1120,-2080,-2080,-2080,-2080"/>
       <virtual-bass-hybgains value="0,0,0,0,0,0"/>
       <virtual-bass-rolloff-gain value="0"/>
       <virtual-bass-blend-linear-gain value="10"/>
