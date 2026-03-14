@@ -2,42 +2,9 @@
 <device_data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <format_version major="3" minor="9" maintenance="1"/>
   <tool_version major="3" minor="18" maintenance="0"/>
-  <preset id="2" name="balanced" type="ieq">
-    <data><ieq-bands></ieq-bands></data>
-  </preset>
-  <preset id="1" name="detailed" type="ieq">
-    <data><ieq-bands></ieq-bands></data>
-  </preset>
-  <preset id="3" name="warm" type="ieq">
-    <data><ieq-bands></ieq-bands></data>
-  </preset>
-  <preset id="0" type="geq">
-    <data><graphic-equalizer-bands></graphic-equalizer-bands></data>
-  </preset>
-  <preset id="1" type="geq">
-    <data><graphic-equalizer-bands></graphic-equalizer-bands></data>
-  </preset>
-  <preset id="2" type="geq">
-    <data><graphic-equalizer-bands></graphic-equalizer-bands></data>
-  </preset>
-  <preset id="3" type="geq">
-    <data><graphic-equalizer-bands></graphic-equalizer-bands></data>
-  </preset>
-  <preset id="4" type="geq">
-    <data><graphic-equalizer-bands></graphic-equalizer-bands></data>
-  </preset>
-  <preset id="5" type="geq">
-    <data><graphic-equalizer-bands></graphic-equalizer-bands></data>
-  </preset>
-  <preset id="6" type="geq">
-    <data><graphic-equalizer-bands></graphic-equalizer-bands></data>
-  </preset>
-  <preset id="7" type="geq">
-    <data><graphic-equalizer-bands></graphic-equalizer-bands></data>
-  </preset>
-  <preset id="8" type="geq">
-    <data><graphic-equalizer-bands></graphic-equalizer-bands></data>
-  </preset>
+  <preset id="2" name="balanced" type="ieq"><data><ieq-bands></ieq-bands></data></preset>
+  <preset id="1" name="detailed" type="ieq"><data><ieq-bands></ieq-bands></data></preset>
+  <preset id="3" name="warm" type="ieq"><data><ieq-bands></ieq-bands></data></preset>
   <profile id="0" name="Dynamic" group="default">
     <data>
       <mi-dv-leveler-steering-enable value="false"/>
