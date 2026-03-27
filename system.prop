@@ -65,3 +65,4 @@ ro.vendor.audio.hifi=true
 
 ro.vendor.audio.soundfx.usb=false
 ro.vendor.audio.misound.bluetooth.enable=false
+ro.vendor.audio.volumecurve.old=false
