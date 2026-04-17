@@ -17,6 +17,7 @@ boost_tid() {
         for tid in $(ls /proc/$pid/task/); do
             comm=$(cat /proc/$pid/task/$tid/comm 2>/dev/null)
             if echo "$comm" | grep -qE "$2"; then
+                echo $tid > /dev/cpuset/top-app/tasks
                 chrt -p $tid -f 5
             fi
         done
