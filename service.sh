@@ -28,6 +28,9 @@ while true; do
     boost_tid "audioserver" "FastMixer|AudioOut_.*|AAudio_.*"
     boost_tid "audiohalservice.qti" "low_latency_out|raw_out_.*|mmap_no_irq_out|writer"
 
+    foreground=$(dumpsys activity activities 2>/dev/null | grep -m1 topResumedActivity | grep -o '[^/{ ]*/' | head -1 | tr -d '/')
+    [ -n "$foreground" ] && boost_tid "$foreground" "AudioTrack|AAudio_.*|FMOD mixer.*"
+
     sleep 1
 
     screen=`dumpsys deviceidle get screen`
