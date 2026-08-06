@@ -1,7 +1,7 @@
 $ErrorActionPreference = "Stop"
 
 $modDir = Split-Path -Parent $MyInvocation.MyCommand.Path
-$rustDir = "..\hyper-audio-rs"
+$rustDir = Join-Path $modDir "..\hyper-audio-rs"
 $name = "Mi17Audio"
 $zipName = "${name}.zip"
 # $version = (Select-String -Path "$modDir\module.prop" -Pattern '^version=').Line.Split('=')[1]
@@ -16,30 +16,35 @@ try {
     Pop-Location
 }
 
-$staging = "$modDir\module_pkg"
+$staging = Join-Path $modDir "module_pkg"
 if (Test-Path $staging) { Remove-Item -Recurse -Force $staging }
 New-Item -ItemType Directory -Path $staging -Force | Out-Null
 
 Write-Host "Copying files..."
-Copy-Item -Recurse "$modDir\META-INF"     "$staging\"
-Copy-Item -Recurse "$modDir\odm"          "$staging\"
-Copy-Item -Recurse "$modDir\system"       "$staging\"
-Copy-Item "$modDir\action.sh"             "$staging\"
-Copy-Item "$modDir\customize.sh"          "$staging\"
-Copy-Item "$modDir\module.prop"           "$staging\"
-Copy-Item "$modDir\post-fs-data.sh"       "$staging\"
-Copy-Item "$modDir\service.sh"            "$staging\"
-Copy-Item "$modDir\system.prop"           "$staging\"
-Copy-Item "$rustDir\config.toml"          "$staging\"
-Copy-Item "$rustDir\target\aarch64-linux-android\release\hyper-audio" "$staging\hyper-audio"
+Copy-Item -Recurse (Join-Path $modDir "META-INF")       "$staging\"
+Copy-Item -Recurse (Join-Path $modDir "odm")            "$staging\"
+Copy-Item -Recurse (Join-Path $modDir "system")         "$staging\"
+Copy-Item (Join-Path $modDir "action.sh")               "$staging\"
+Copy-Item (Join-Path $modDir "customize.sh")            "$staging\"
+Copy-Item (Join-Path $modDir "module.prop")             "$staging\"
+Copy-Item (Join-Path $modDir "post-fs-data.sh")         "$staging\"
+Copy-Item (Join-Path $modDir "service.sh")              "$staging\"
+Copy-Item (Join-Path $modDir "system.prop")             "$staging\"
+Copy-Item (Join-Path $rustDir "config.toml")            "$staging\"
+Copy-Item (Join-Path $rustDir "target\aarch64-linux-android\release\hyper-audio") "$staging\hyper-audio"
 
-$outDir = "$modDir"
-if (-not (Test-Path $outDir)) { New-Item -ItemType Directory -Path $outDir -Force | Out-Null }
-$outZip = "$outDir\$zipName"
+$outDir = $modDir
+$outZip = Join-Path $outDir $zipName
 
 Write-Host "Creating $outZip ..."
 if (Test-Path $outZip) { Remove-Item $outZip }
-Compress-Archive -Path "$staging\*" -DestinationPath $outZip
+Add-Type -AssemblyName System.IO.Compression.FileSystem
+$archive = [System.IO.Compression.ZipFile]::Open($outZip, 'Create')
+Get-ChildItem -Recurse -File $staging | ForEach-Object {
+    $entry = $_.FullName.Substring($staging.Length + 1) -replace '\\', '/'
+    $null = [System.IO.Compression.ZipFileExtensions]::CreateEntryFromFile($archive, $_.FullName, $entry)
+}
+$archive.Dispose()
 
 Remove-Item -Recurse -Force $staging
 Write-Host "Done: $outZip"
