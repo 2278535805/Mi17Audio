@@ -28,6 +28,5 @@ remove_files() {
     "audio_lowpower_app_list.xml"
 }
 
-print_modname
 remove_files
 set_permissions
