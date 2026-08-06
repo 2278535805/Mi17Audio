@@ -30,5 +30,4 @@ remove_files() {
 
 remove_files
 set_permissions
-ui_print "- Done!"
 ui_print "- config.toml is located in /data/adb/modules/Mi17Audio/"
