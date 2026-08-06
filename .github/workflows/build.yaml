@@ -5,7 +5,6 @@ on:
       - '*'
     paths:
       - '**'
-      - '!.github/workflows/**'
   workflow_dispatch:
 
 jobs:
@@ -45,4 +44,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Mi17Audio
-          path: Mi17Audio.zip
+          path: ./module/Mi17Audio.zip
