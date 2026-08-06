@@ -31,9 +31,7 @@ jobs:
         run: rustup target add aarch64-linux-android
 
       - name: Setup Android NDK
-        uses: nanasess/setup-android@v2
-        with:
-          add-to-path: false
+        uses: android-actions/setup-android@v3
 
       - name: Install cargo-ndk
         run: cargo install cargo-ndk
