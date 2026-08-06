@@ -3,7 +3,8 @@
 # Low latency configuration
 aaudio.mmap_policy=2
 aaudio.mmap_exclusive_policy=3
-aaudio.hw_burst_min_usec=2000
+aaudio.hw_burst_min_usec=1000
+vendor.audio_hal.period_size=48
 vendor.audio_hal.period_multiplier=2
 # HLMC: 1 会爆音; Ray: 3 音质最好
 vendor.audio.adm.buffering.ms=3
