@@ -1,0 +1,48 @@
+name: Mi17Audio CI
+on:
+  push:
+    branches:
+      - '*'
+    paths:
+      - '**'
+      - '!.github/workflows/**'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout module
+        uses: actions/checkout@v6
+
+      - name: Checkout hyper-audio-rs
+        uses: actions/checkout@v6
+        with:
+          repository: ${{ github.repository_owner }}/hyper-audio-rs
+          path: hyper-audio-rs
+
+      - name: Setup Rust
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          toolchain: stable-x86_64-msvc
+
+      - name: Add Android target
+        run: rustup target add aarch64-linux-android
+
+      - name: Setup Android NDK
+        uses: nanasess/setup-android@v2
+        with:
+          add-to-path: false
+
+      - name: Install cargo-ndk
+        run: cargo install cargo-ndk
+
+      - name: Build
+        run: .\build.ps1
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Mi17Audio
+          path: Mi17Audio.zip
