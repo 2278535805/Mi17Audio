@@ -10,7 +10,7 @@ $zipName = "${name}.zip"
 Write-Host "Building Rust binary..."
 Push-Location $rustDir
 try {
-    cargo ndk -t arm64-v8a build --release
+    cargo ndk -t arm64-v8a build --release --features cirrus
     if ($LASTEXITCODE -ne 0) { throw "cargo build failed" }
 } finally {
     Pop-Location
