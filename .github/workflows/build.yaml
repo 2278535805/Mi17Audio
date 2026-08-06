@@ -15,6 +15,8 @@ jobs:
     steps:
       - name: Checkout module
         uses: actions/checkout@v6
+        with:
+          path: module
 
       - name: Checkout hyper-audio-rs
         uses: actions/checkout@v6
@@ -37,7 +39,7 @@ jobs:
         run: cargo install cargo-ndk
 
       - name: Build
-        run: .\build.ps1
+        run: ./module/build.ps1
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
