@@ -128,7 +128,23 @@ remove_files() {
     "audio_lowpower_app_list.xml"
 }
 
+device_setup() {
+  device=$(getprop ro.product.device)
+  if [ "$device" = "popsicle" ]; then
+    ui_print "- 设备: Pro Max ($device)"
+    sed -i '/<!-- FLAG:DEVICE pudding START -->/,/<!-- FLAG:DEVICE pudding END -->/d' \
+      "$MODPATH/odm/etc/audio/sku_canoe/resourcemanager_canoe_mtp.xml"
+  elif [ "$device" = "pandora" ] || [ "$device" = "pudding" ]; then
+    ui_print "- 设备: 非 Pro Max ($device)"
+    sed -i '/<!-- FLAG:DEVICE popsicle START -->/,/<!-- FLAG:DEVICE popsicle END -->/d' \
+      "$MODPATH/odm/etc/audio/sku_canoe/resourcemanager_canoe_mtp.xml"
+  else
+    ui_print "! 未知设备: $device"
+  fi
+}
+
 remove_files
+device_setup
 set_permissions
 # ui_print "- config.toml is located in /data/adb/modules/Mi17Audio/"
 ui_print "- config.toml 位于 /data/adb/modules/Mi17Audio/"
@@ -140,8 +156,8 @@ handle_choice \
     "10"
 choice=$?
 if [ "$choice" -eq 0 ]; then
-    sed -i '/<!-- FLAG:ULL START -->/,/<!-- FLAG:ULL END -->/d' \
-        "$MODPATH/odm/etc/audio/sku_canoe/resourcemanager_canoe_mtp.xml"
+  sed -i '/<!-- FLAG:ULL START -->/,/<!-- FLAG:ULL END -->/d' \
+    "$MODPATH/odm/etc/audio/sku_canoe/resourcemanager_canoe_mtp.xml"
 # elif [ "$choice" -eq 1 ]; then
 #     ui_print "bypass cirrus dsp in ultra low latency"
 fi
