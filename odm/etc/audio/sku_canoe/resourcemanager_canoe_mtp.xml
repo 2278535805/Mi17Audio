@@ -926,6 +926,13 @@
                     <snd_device_name>speaker-lp-navigation</snd_device_name>
                 </custom-config>
             </usecase>
+            <!-- FLAG:ULL START -->
+            <usecase>
+                <name>PAL_STREAM_ULTRA_LOW_LATENCY</name>
+                <channels>2</channels>
+                <snd_device_name>speaker-ull</snd_device_name>
+            </usecase>
+            <!-- FLAG:ULL END -->
             <usecase>
                 <name>PAL_STREAM_PCM_OFFLOAD</name>
                 <channels>2</channels>

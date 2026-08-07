@@ -1070,6 +1070,12 @@
         <ctl name="B Delta Select" value="music" />
     </path>
 
+    <path name="speaker-ull">
+        <path name="speaker" />
+        <ctl name="T PCM Source" value="ASPRX1" />
+        <ctl name="B PCM Source" value="ASPRX1" />
+    </path>
+
     <path name="speaker-prot">
         <path name="speaker" />
         <ctl name="SA1 FU21 Stereo Gain Offset dB" value="84" />
