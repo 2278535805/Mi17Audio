@@ -1,5 +1,7 @@
 # Enable HyperOS 4 MMAP
 persist.vendor.audio.aaudio.support=true
+# Disable RAW whitelist
+vendor.audio.ull.playback.support=true
 
 # Low latency configuration
 aaudio.mmap_policy=2
