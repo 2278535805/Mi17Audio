@@ -1,4 +1,5 @@
-# Ray 2024/3/16: Improved ULL Quality
+# Enable HyperOS 4 MMAP
+persist.vendor.audio.aaudio.support=true
 
 # Low latency configuration
 aaudio.mmap_policy=2
