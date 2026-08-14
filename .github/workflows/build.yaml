@@ -27,12 +27,15 @@ jobs:
         uses: dtolnay/rust-toolchain@stable
         with:
           toolchain: stable-x86_64-msvc
-
-      - name: Add Android target
-        run: rustup target add aarch64-linux-android
+          targets: aarch64-linux-android
 
       - name: Setup Android NDK
         uses: android-actions/setup-android@v3
+
+      - name: Rust cache
+        uses: swatinem/rust-cache@v2
+        with:
+          cache-all-crates: "true"
 
       - name: Install cargo-ndk
         run: cargo install cargo-ndk
