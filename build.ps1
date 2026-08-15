@@ -20,12 +20,11 @@ $staging = Join-Path $modDir "module_pkg"
 if (Test-Path $staging) { Remove-Item -Recurse -Force $staging }
 New-Item -ItemType Directory -Path $staging -Force | Out-Null
 New-Item -ItemType Directory -Path "$staging\system\lib64" -Force | Out-Null
-New-Item -ItemType Directory -Path "$staging\system\vendor" -Force | Out-Null
 
 Write-Host "Copying files..."
 Copy-Item -Recurse (Join-Path $modDir "META-INF") "$staging\"
 Copy-Item -Recurse (Join-Path $modDir "odm") "$staging\"
-Copy-Item -Recurse (Join-Path $modDir "system\vendor") "$staging\vendor"
+Copy-Item -Recurse (Join-Path $modDir "system\vendor") "$staging\system"
 Copy-Item (Join-Path $modDir "\system\lib64\libaaudio_internal.so") "$staging\system\lib64"
 Copy-Item (Join-Path $modDir "\system\lib64\libaaudio_internal_builder.so") "$staging\system\lib64"
 Copy-Item (Join-Path $modDir "action.sh") "$staging\"
